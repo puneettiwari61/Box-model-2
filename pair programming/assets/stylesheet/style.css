@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------------------
+-----------------------------------------
+-----------------------------------------*/
+
+/*----------Sections--------*/
+
+.section-1 {
+	background-color: #4B5C96;
+}
+
+.section-2 {
+	background-color: #45558D;
+}
+
+.section-3 {
+	background-color: #3F4E85;
+}
+
+/*----------Containers--------*/
+
+.cont {
+	margin-left: 170px;
+	margin-right: 170px;
+}
+.cont-2{
+	padding-bottom: 50px;
+}
+
+/*----------Headings--------*/
+.head-1 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 22px;
+}
+.head-2 {
+	margin-top: 150px;
+	font-size: 50px;
+	color: white;
+}
+.head-3 {
+	color: white;
+	font-size: 22px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+/*----------paragraphs--------*/
+
+.pa {
+	color: #d6d6d6;
+}
+.para-1 {
+	padding-bottom: 170px;
+}
+.para-2 {
+	line-height: 20px;
+}
+.para-3 {
+	line-height: 20px;
+	padding-top: 40px;
+}
+.para-4 {
+	padding-top: 50px;
+}
+
+/*------top, bottom and navigation-----*/
+
+.top {
+	background-color: #2E3140;
+}
+
+.navi {
+	text-align: center;
+	margin-top: 22px;
+	word-spacing: 12px;
+}
+
+/*----------image--------*/
+
+.image-1 {
+	width: 15%;
+	border-radius: 50%;
+}
+
+/*------hr,anchor and h5--------*/
+
+hr {
+	border:0.5px solid #c2c2c2;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	opacity: 0.15;
+}
+h5 {
+	padding-top: 15px;
+	font-size: 18px;
+	color: white;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
